@@ -1,0 +1,176 @@
+
+
+
+main{
+  font-family: 'Poppins', sans-serif;
+  background : linear-gradient(to right top, #65dfc9, #6cdbeb);
+  width: 100%;
+  height: 100%;
+  padding-top:170px;
+  color: #6CB4EE;
+}
+@keyframes mymove{
+  from{left: 340px;}
+  to{left:240px;}
+}
+.flexbox{
+  display: flex;
+  
+}
+
+/* .chevron1{
+flex:1;
+clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+background: white;
+height: 250px;
+width: 350px;
+background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+backdrop-filter: blur(2rem);
+margin-top: 15%;
+margin-left : 25%;
+
+} */
+
+.intro{
+  flex:1;
+  font-family: 'Nunito', sans-serif;
+  color: #6CB4EE;
+  font-weight: 500;
+  height: 250px;
+  width: 390px;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+  backdrop-filter: blur(3rem);
+  border-radius: 1rem;
+  padding: 1rem;
+  animation: mymove 4s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  position: relative;
+  cursor: pointer;
+  
+}
+.intro:hover{
+  background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(1255,255,255,0.7));
+  backdrop-filter: blur(2rem);
+  color: white;
+}
+.bg{
+  background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(1255,255,255,0.7));
+  backdrop-filter: blur(2rem);
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+}
+.bg img{
+  flex:1;
+  height: 250px;
+  width: 250px;
+  border-radius: 10%;
+  mix-blend-mode:color-burn ;
+  
+}
+#introduction{
+  margin-bottom: 50px;
+  background-attachment: fixed;
+}
+.circle{
+background: white;
+height: 250px;
+width: 250px;
+background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+backdrop-filter: blur(2rem);
+border-radius: 50%;
+margin-top: 30%;
+position: relative;
+animation: bounce 1s linear;
+cursor: pointer;
+
+}
+
+.circle-text{
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  color: #6CB4EE;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.circle-text:hover{
+  animation: zoom 1s linear;
+  animation-fill-mode: forwards;
+  color: white;
+}
+.circle:hover{
+  background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(1255,255,255,0.7));
+  backdrop-filter: blur(2rem);
+  color: white;
+}
+@keyframes bounce{
+  20%,60%,80%,to{
+    transform: translateY(0);
+
+  }
+  40%{
+    transform: translateY(-30px);
+    
+  }
+  70%{
+    transform:translateY(-15px);
+    
+  }
+  90%{
+    transform: translateY(-4px);
+    
+  }
+}
+
+@keyframes zoom{
+  from {
+    transform: scale(1.1);
+    
+  }
+  to{
+    transform: scale(1.3);
+   
+  }
+}
+
+
+/* PROJECTS */
+.projects{
+  height: 100vh;
+  padding-top: 40px;
+  background: white;
+}
+.projects h2{
+  margin-bottom: 100px;
+}
+.card{
+  margin-bottom: 20px;
+  height: 100%;
+}
+.col-md-4 a{
+  text-decoration: none;
+  color: #6CB4EE;
+}
+
+
+.card ul li a{
+  text-decoration: none;
+  color: #65dfc9;
+}
+.card ul li:hover{
+  background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(1255,255,255,0.7));
+  backdrop-filter: blur(2rem);
+  text-decoration: none;
+}
+
+footer{
+  background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(255,255,255,0.7));
+  backdrop-filter: blur(2rem);
+  color: white;
+  text-align: center;
+  padding: 2rem ;
+}
