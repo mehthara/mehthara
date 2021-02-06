@@ -22,18 +22,6 @@ main{
   
 }
 
-/* .chevron1{
-flex:1;
-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-background: white;
-height: 250px;
-width: 350px;
-background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
-backdrop-filter: blur(2rem);
-margin-top: 15%;
-margin-left : 25%;
-
-} */
 
 .intro{
   flex:1;
