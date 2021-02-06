@@ -134,7 +134,7 @@ cursor: pointer;
 
 /* PROJECTS */
 .projects{
-  height: 120vh;
+  /* height: 120vh; */
   padding-top: 40px;
   background: white;
 }
@@ -157,7 +157,8 @@ cursor: pointer;
 .card:hover{
   box-shadow: 0 4px 8px 0 rgb(101, 223, 201,0.2), 0 6px 20px 0 rgb(101, 223, 201,0.5);
   transform : translateX(-12px);
- 
+  color: #65dfc9;
+  
 }
 .change :hover{
  color: #65dfc9;
@@ -186,3 +187,24 @@ footer{
   padding: 2rem ;
 }
 
+@media (max-width : 900px){
+  .intro{
+    flex:1;
+    font-family: 'Nunito', sans-serif;
+    color: #6CB4EE;
+    font-weight: 500;
+    height: 220px;
+    width: 340px;
+    background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    backdrop-filter: blur(3rem);
+    border-radius: 1rem;
+    padding: 1rem;
+    /* margin: auto 20px auto; */
+    margin-bottom: 20px;
+    animation: none;
+  }
+
+  .card{
+    margin-bottom: 20px;
+  }
+}
