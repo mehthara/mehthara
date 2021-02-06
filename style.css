@@ -163,20 +163,20 @@ cursor: pointer;
 .change :hover{
  color: #65dfc9;
 }
-.card ul li a{
+.card ul a{
   text-decoration: none;
-  color: #65dfc9;
+  color:#6CB4EE;
   
 }
-.card ul li a:hover{
+.card ul a:hover{
   text-decoration: none;
-  
+  color: #65dfc9;
 }
 .card ul li:hover{
   background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(255,255,255,0.7));
   backdrop-filter: blur(2rem);
   text-decoration: none;
-  
+  cursor: pointer;
 }
 
 footer{
