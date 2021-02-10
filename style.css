@@ -22,7 +22,12 @@ main{
   
 }
 
-
+#introduction{
+  border: white 20px solid;
+  padding: 30px;
+  margin-bottom: 50px;
+ 
+}
 .intro{
   flex:1;
   font-family: 'Nunito', sans-serif;
@@ -38,7 +43,7 @@ main{
   animation-timing-function: ease;
   animation-fill-mode: forwards;
   position: relative;
-  cursor: pointer;
+  
   
 }
 .intro:hover{
@@ -61,10 +66,7 @@ main{
   mix-blend-mode:color-burn ;
   
 }
-#introduction{
-  margin-bottom: 50px;
-  background-attachment: fixed;
-}
+
 .circle{
 background: white;
 height: 250px;
@@ -188,7 +190,14 @@ footer{
 }
 
 @media (max-width : 900px){
-  .intro{
+ #introduction{
+   margin : 10px;
+   padding: 10px;
+   border-left: solid white 20px;
+   border-right:solid white 20px;
+ } 
+ 
+ .intro{
     flex:1;
     font-family: 'Nunito', sans-serif;
     color: #6CB4EE;
@@ -204,8 +213,8 @@ footer{
     animation: none;
   }
 
-  .card{
-    margin-bottom: 20px;
+  .col-md-4{
+    padding-bottom: 20px;
   }
   .circle{
     margin:auto;
