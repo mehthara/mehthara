@@ -12,7 +12,7 @@ main{
 @keyframes mymove{
   from{left: 340px;
   }
-  to{left:240px;
+  to{left:220px;
     background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(255,255,255,0.7));
     backdrop-filter: blur(2rem);
     color: white;}
@@ -196,6 +196,14 @@ footer{
    border-left: solid white 20px;
    border-right:solid white 20px;
  } 
+ @keyframes mymove{
+  from{left: 180px;
+  }
+  to{left:0px;
+    background: linear-gradient(to top left, rgb(101, 223, 201,0.5),rgb(255,255,255,0.7));
+    backdrop-filter: blur(2rem);
+    color: white;}
+}
  
  .intro{
     flex:1;
@@ -203,14 +211,14 @@ footer{
     color: #6CB4EE;
     font-weight: 500;
     height: 220px;
-    width: 340px;
+    width: 278px;
     background: linear-gradient(to bottom right, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
     backdrop-filter: blur(3rem);
     border-radius: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     /* margin: auto 20px auto; */
     margin-bottom: 20px;
-    animation: none;
+    animation: mymove 4s ease forwards;
   }
 
   .col-md-4{
